@@ -1,0 +1,16 @@
+--------------------------------------------------------------------------------
+Processing file 'CNN_2.py'
+ outputting to 'cifar_test.py'
+--------------------------------------------------------------------------------
+
+'CNN_2.py' Line 70
+--------------------------------------------------------------------------------
+
+Renamed function 'tf.initialize_all_variables' to 'tf.global_variables_initializer'
+
+    Old: tf.initialize_all_variables().run()
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~         
+    New: tf.global_variables_initializer().run()
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~         
+
+
